@@ -69,4 +69,5 @@ width:100%;
 background-color:#303192;
 font-size:1em;
 position:fixed;
-bottom:0;}
+bottom:0;
+}
