@@ -1,0 +1,70 @@
+body{
+position:absolute;
+top:0;
+bottom:0;
+right:0;
+left:0;
+padding:0;
+border:0;
+margin:0;
+}
+h1{
+font-size:2em;
+width:75%;
+box-shadow:0px 5px 3px black;
+margin-left:12.5%;
+margin-right:12.5%;
+margin-top:0;
+position:relative;
+margin-bottom:3px;
+z-index:2;
+background-color:#303192;
+}
+h2{
+color:#fbec2b;
+background-color:#838383;
+width:72%;
+font-size:100%;
+margin-right:14%;
+margin-left:14%;
+margin-top:0;
+margin-bottom:0;
+text-align:center;
+}
+#Banner{
+font-size:2em;
+margin-left:0 auto;
+margin-right:0 auto;
+margin-top:0;
+margin-bottom:3%;
+height:30%;
+width:100%;
+text-align:center;
+}
+#Banner img{
+	height:100%;
+	width:auto;
+}
+#AboutUs{
+width:70%;
+margin-left:14%;
+margin-right:14%;
+padding:1%;
+background-color:#007000;
+color:#e0e0e0;
+}
+.EventDescription{
+width:70%;
+margin-left:14%;
+margin-right:14%;
+padding:1%;
+background-color:#007000;
+color:#e0e0e0;
+}
+#Contact{
+color:#fbec2b;
+text-align:right;
+width:100%;
+background-color:#303192;
+font-size:1em;
+}
