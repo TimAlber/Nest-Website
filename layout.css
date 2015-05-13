@@ -10,7 +10,9 @@ body{
 	overflow: hidden;
 }
 .contact{
-	float: center;
+	position: fixed;
+    	bottom: 0;
+    	width: 100%;
 }
 .left{
     	width: 30%;
