@@ -5,6 +5,15 @@
     <meta name="keywords" content="MITES,mites,MITES Event,Fancher School,Libary,Mt. Pleasant,Electronics,HTML,CSS,XML,JavaScript">
     <title>Gitec MITES</title>
     <link rel="stylesheet" type="text/css" href="layout.css"></style>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>
+    	$( document ).ready(function() {
+    	$('div').each(function() {
+    	var randomColor = '#'+(Math.random()*0xFFFFFF<<0).toString(16);
+        $(this).css('background',randomColor());
+        });
+    	});
+    </script>
 </head>
 <body>
 <center>
