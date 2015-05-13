@@ -1,1 +1,31 @@
+.topic{
+	background-color:#B20000;
+    width: 40%;
+    padding:.5vw;
+}
+body{
+	background-color: gray;
+	color:black;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 2vw;
+	text-align: left;
+	overflow: hidden;
+}
+.contact{
+	float: center;
+}
+.left{
+	background-color:#1A4C1A;
+    width: 30%;
+	float: left;
+    padding:.5vw;
+	margin-bottom: .5vw;
+}
+.right{
+	background-color:#2C2C9B;
+    width: 30%;
+	float: right; 
+    padding:.5vw;
+	margin-bottom: .5vw;
+}
 
