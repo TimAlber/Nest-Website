@@ -15,16 +15,12 @@ body{
 }
 .left{
     	width: 30%;
-	position: absolute;
-    	bottom: 50%;
-    	left:0px;
     	padding:.5vw;
 	margin-bottom: .5vw;
 	border-radius: 25px;
 }
 .right{
     	width: 30%;
-	float: right; 
     	padding:.5vw;
 	margin-bottom: .5vw;
 	border-radius: 25px;
