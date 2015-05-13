@@ -1,6 +1,7 @@
 .topic{
     	width: 80%;
     	padding:.5vw;
+    	border-radius: 25px;
 }
 body{
 	color:black;
@@ -17,11 +18,13 @@ body{
 	float: left;
     	padding:.5vw;
 	margin-bottom: .5vw;
+	border-radius: 25px;
 }
 .right{
     	width: 30%;
 	float: right; 
     	padding:.5vw;
 	margin-bottom: .5vw;
+	border-radius: 25px;
 }
 
