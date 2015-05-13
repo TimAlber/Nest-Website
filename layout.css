@@ -15,7 +15,9 @@ body{
 }
 .left{
     	width: 30%;
-	float: left;
+	position: absolute;
+    	bottom: 50%;
+    	left:0px;
     	padding:.5vw;
 	margin-bottom: .5vw;
 	border-radius: 25px;
