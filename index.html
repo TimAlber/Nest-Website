@@ -7,11 +7,13 @@
     <link rel="stylesheet" type="text/css" href="layout.css"></style>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script>
+    	function randomColor(){
+    		return '#'+(Math.floor(Math.random()*16777216)&0xFFFFFF).toString(16);
+	}
     	$( document ).ready(function() {
-    	$('div').each(function() {
-    	var randomColor = '#'+(Math.random()*0xFFFFFF<<0).toString(16);
-        $(this).css('background',randomColor());
-        });
+	$('div').each(function() {
+	        $(this).css('background',randomColor());
+	});
     	});
     </script>
 </head>
