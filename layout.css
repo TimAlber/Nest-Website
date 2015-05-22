@@ -1,8 +1,14 @@
 .topic{
-    	width: 80%;
-    	padding:.5vw;
-    	border-radius: 25px;
+    width: 80%;
+    padding:.5vw;
+    border-radius: 25px;
 }
+.search{
+    width: 40%;
+    padding:.5vw;
+    border-radius: 25px;
+}
+
 body{
 	color:black;
 	font-family: Arial, Helvetica, sans-serif;
@@ -10,19 +16,30 @@ body{
 }
 .contact{
 	position: fixed;
-    	bottom: 0;
-    	width: 100%;
+    bottom: 0px;
+    width: 100%;
 }
 .left{
-    	width: 30%;
-    	padding:.5vw;
+    width: 30%;
+    padding:.5vw;
 	margin-bottom: .5vw;
 	border-radius: 25px;
 }
 .right{
-    	width: 30%;
-    	padding:.5vw;
+    width: 30%;
+    padding:.5vw;
 	margin-bottom: .5vw;
 	border-radius: 25px;
 }
-
+.games{
+    width: 30%;
+    padding:.5vw;
+	margin-bottom: .5vw;
+	border-radius: 25px;
+}
+.colorch{
+	width: 30%;
+    padding:.5vw;
+	margin-bottom: .5vw;
+	border-radius: 25px;
+}
