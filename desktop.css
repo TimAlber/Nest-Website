@@ -1,7 +1,8 @@
 .topic{
-	background-color:#B20000;
-    width: 40%;
-    padding:.5vw;
+    background-color: #0da0cc;
+    border-radius: 15vw;
+    height: 15vw;
+    width: 15vw;
 }
 .info{
 	background-color:#FF9900;
@@ -21,13 +22,19 @@ body{
 }
 .left{
 	background-color:#1A4C1A;
+	position: absolute;
+    left: 0px;
+    top: 1vw;
     width: 30%;
 	float: left;
     padding:.5vw;
 	margin-bottom: .5vw;
 }
 .right{
-	background-color:#2C2C9B;
+	position: absolute;
+    right: 0px;
+    top: 1vw;
+	background-color:#0000A3;
     width: 30%;
 	float: right; 
     padding:.5vw;
