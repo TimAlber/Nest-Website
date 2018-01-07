@@ -10,5 +10,10 @@ function closeNav() {
     document.getElementById("main").style.marginLeft = "0";
 }
 window.onload = function() {
-    openNav();
+    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+        closeNav();
+    }
+    else {
+        openNav();
+    }
 };
