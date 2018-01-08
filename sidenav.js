@@ -34,5 +34,10 @@ var isMobile = {
 
 
 window.onload = function() {
-    if( isMobile.any() ) alert('Mobile');
+    if( isMobile.any() ){
+        closeNav();
+    }
+    else{
+        openNav();
+    }
 };
