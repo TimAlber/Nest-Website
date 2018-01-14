@@ -32,6 +32,24 @@ var isMobile = {
     }
 };
 
+function gruppen() {
+    if( isMobile.any() ){
+        window.open('gruppen.html');
+    }
+    else{
+        window.open('gruppen-desk.html');
+    }
+
+}
+function beratung() {
+    if( isMobile.any() ){
+        window.open('beratung.html');
+    }
+    else{
+        window.open('beratung-desk.html');
+    }
+
+}
 
 window.onload = function() {
     if( isMobile.any() ){
