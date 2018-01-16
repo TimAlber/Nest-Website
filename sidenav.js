@@ -34,19 +34,19 @@ var isMobile = {
 
 function gruppen() {
     if( isMobile.any() ){
-        window.open('gruppen.html');
+        window.open('gruppen.html',"_self");
     }
     else{
-        window.open('gruppen-desk.html');
+        window.open('gruppen-desk.html',"_self");
     }
 
 }
 function beratung() {
     if( isMobile.any() ){
-        window.open('beratung.html');
+        window.open('beratung.html',"_self");
     }
     else{
-        window.open('beratung-desk.html');
+        window.open('beratung-desk.html',"_self");
     }
 
 }
