@@ -51,6 +51,26 @@ function beratung() {
 
 }
 
+function veran() {
+    if( isMobile.any() ){
+        window.open('veranstaltungen.html',"_self");
+    }
+    else{
+        window.open('veranstaltungen-desk.html',"_self");
+    }
+
+}
+
+function vort() {
+    if( isMobile.any() ){
+        window.open('vortbildungen.html',"_self");
+    }
+    else{
+        window.open('vortbildungen-desk.html',"_self");
+    }
+
+}
+
 window.onload = function() {
     if( isMobile.any() ){
         closeNav();
