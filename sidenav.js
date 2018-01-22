@@ -61,12 +61,12 @@ function veran() {
 
 }
 
-function kon() {
+function vort() {
     if( isMobile.any() ){
-        window.open('kontakt.html',"_self");
+        window.open('vortbildungen.html',"_self");
     }
     else{
-        window.open('kontakt-desk.html',"_self");
+        window.open('vortbildungen-desk.html',"_self");
     }
 
 }
