@@ -61,15 +61,6 @@ function veran() {
 
 }
 
-function vort() {
-    if( isMobile.any() ){
-        window.open('vortbildungen.html',"_self");
-    }
-    else{
-        window.open('vortbildungen-desk.html',"_self");
-    }
-
-}
 
 window.onload = function() {
     if( isMobile.any() ){
