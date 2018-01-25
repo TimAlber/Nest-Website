@@ -38,11 +38,11 @@
         <p>  <a onclick="gruppen()" href="javascript:void(0);">Gruppen</a></p>
     </div>
     <script>
-        var acc = document.getElementsByClassName("accordion");
+        var acc2 = document.getElementsByClassName("accordion");
         var i;
 
         for (i = 0; i < acc.length; i++) {
-            acc[i].addEventListener("click", function() {
+            acc2[i].addEventListener("click", function() {
                 this.classList.toggle("active");
                 var panel = this.nextElementSibling;
                 if (panel.style.maxHeight){
@@ -98,6 +98,22 @@
       </tr>
     </table>
   </div>
+      <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight){
+                    panel.style.maxHeight = null;
+                } else {
+                    panel.style.maxHeight = panel.scrollHeight + "px";
+                }
+            });
+        }
+    </script>
  <br><br><br><br><br><br><br><br>
 </div>
   </body>
