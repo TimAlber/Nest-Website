@@ -19,12 +19,41 @@
       <img src="logo.png" alt="Mountain View" width="140" height="140">
     </center>
   <a href="index.html">Startseite</a>
-  <a onclick="beratung()" href="javascript:void(0);">Beratung</a>
-  <a href="dasstimmenhoeren.html">Das Stimmenhören</a>
-  <a href="kontakt.html">Kontakt</a>
-  <a href="spenden.html">Spenden</a>
-  <a href="forum.html">Forum</a>
-  <a href="impressum.html">Impressum</a>
+    <a href="suchen.html">Suchen</a>
+    <button class="accordion">Angebote</button>
+    <div class="panel">
+      <p>  <a onclick="beratung()" href="javascript:void(0);">Beratung</a></p>
+      <p>  <a href="vortbildungen.html">Fortbildungen</a></p>
+      <p>  <a onclick="veran()" href="javascript:void(0);">Veranstaltungen</a></p>
+    </div>
+    <button class="accordion">Infomationen</button>
+    <div class="panel">
+      <p><a href="literatur.html">Literatur</a></p>
+      <p><a href="links.html">Online Literatur</a></p>
+      <p><a href="jurnal.html">Stimmenhörer Jurnale</a></p>
+      <p><a href="dasstimmenhoeren.html">Das Stimmenhören</a></p>
+      <p><a href="satzung.html">Satzung</a></p>
+      <p><a href="kontakt.html">Kontakt</a></p>
+      <p><a href="spenden.html">Spenden</a></p>
+      <p><a href="impressum.html">Impressum</a></p>
+    </div>
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight){
+                    panel.style.maxHeight = null;
+                } else {
+                    panel.style.maxHeight = panel.scrollHeight + "px";
+                }
+            });
+        }
+    </script>
+    <a href="forum.html">Forum</a>
 </div>
 
   <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>

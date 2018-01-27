@@ -35,28 +35,30 @@
 
   <a href="index.html">Startseite</a>
   <a href="suchen.html">Suchen</a>
-
-    <button class="accordion">Angebote</button>
-    <div class="panel">
-        <p>  <a onclick="beratung()" href="javascript:void(0);">Beratung</a></p>
-        <p>  <a onclick="gruppen()" href="javascript:void(0);">Gruppen</a></p>
-        <p>  <a onclick="veran()" href="javascript:void(0);">Veranstaltungen</a></p>
-        <p>  <a onclick="vort()" href="javascript:void(0);">Vortbildungen</a></p>
-    </div>
+  <button class="accordion">Angebote</button>
+  <div class="panel">
+    <a onclick="beratung()" href="javascript:void(0);">Beratung</a>
+    <a onclick="gruppen()" href="javascript:void(0);">Gruppen</a>
+    <a href="vortbildungen.html">Fortbildungen</a>
+    <a onclick="veran()" href="javascript:void(0);">Veranstaltungen</a>
+  </div>
   <button class="accordion">Infomationen</button>
   <div class="panel">
-    <p><a href="literatur.html">Literatur</a></p>
-    <p><a href="links.html">Online Literatur</a></p>
-    <p><a href="kontakt.html">Kontakt</a></p>
-    <p><a href="spenden.html">Spenden</a></p>
-    <p><a href="impressum.html">Impressum</a></p>
+    <a href="literatur.html">Literatur</a>
+    <a href="links.html">Online Literatur</a>
+    <a href="jurnal.html">Stimmenhörer Jurnale</a>
+    <a href="dasstimmenhoeren.html">Das Stimmenhören</a>
+    <a href="satzung.html">Satzung</a>
+    <a href="kontakt.html">Kontakt</a>
+    <a href="spenden.html">Spenden</a><
+    <a href="impressum.html">Impressum</a>
   </div>
     <script>
-        var acc = document.getElementsByClassName("accordion");
+        var acc2 = document.getElementsByClassName("accordion");
         var i;
 
         for (i = 0; i < acc.length; i++) {
-            acc[i].addEventListener("click", function() {
+            acc2[i].addEventListener("click", function() {
                 this.classList.toggle("active");
                 var panel = this.nextElementSibling;
                 if (panel.style.maxHeight){
@@ -68,9 +70,6 @@
         }
     </script>
   <a href="forum.html">Forum</a>
-  <a href="dasstimmenhoeren.html">Das Stimmenhören</a>
-<!--  <a onclick="beratung()" href="javascript:void(0);">Beratung</a>
-  <a onclick="gruppen()" href="javascript:void(0);">Gruppen</a>-->
 </div>
 
 <!--<span onclick="openNav()">open</span>-->
@@ -147,11 +146,11 @@
   </ul>
   </div>
   <script>
-      var acc2 = document.getElementsByClassName("accordion");
+      var acc = document.getElementsByClassName("accordion");
       var i;
 
       for (i = 0; i < acc.length; i++) {
-          acc2[i].addEventListener("click", function() {
+          acc[i].addEventListener("click", function() {
               this.classList.toggle("active");
               var panel = this.nextElementSibling;
               if (panel.style.maxHeight){
