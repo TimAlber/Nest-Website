@@ -77,6 +77,8 @@
 
   <h1>Online Literatur</h1>
   <br>
+  <button class="accordion">Webseiten</button>
+  <div class="panel2">
   <p><a href="https://www.familienratgeber.de">Familienratgeber der Aktion Mensch</a><br>
   Der Familienratgeber der Aktion Mensch ist die Plattform für Familien, Menschen mit Behinderungen, Ihre Angehörigen und die sie betreuenden Stellen.
   </p>
@@ -158,6 +160,30 @@
   <p><a href="http://enusp.org/">enusp – Europäisches Netzwerk von Psychiatriebetroffenen</a><br>
   Hier gibt es z.B. eine europaweite Liste von Organisationen, die mit der Psychiatrie zu tun haben.
   </p>
+  </div>
+  <button class="accordion">Andere Medien</button>
+  <div class="panel2">
+    <iframe width="100%" height="480" src="https://www.youtube.com/embed/W2GAopgQmzo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <iframe width="100%" height="480" src="https://www.youtube.com/embed/zt0iObkjwug" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <iframe width="100%" height="480" src="https://www.youtube.com/embed/lWLJLHlI2fo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <iframe width="100%" height="480" src="https://www.youtube.com/embed/k7epq9OFQNE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </div>
+  <script>
+      var acc2 = document.getElementsByClassName("accordion");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+          acc2[i].addEventListener("click", function() {
+              this.classList.toggle("active");
+              var panel = this.nextElementSibling;
+              if (panel.style.maxHeight){
+                  panel.style.maxHeight = null;
+              } else {
+                  panel.style.maxHeight = panel.scrollHeight + "px";
+              }
+          });
+      }
+  </script>
  <br><br><br><br><br><br><br><br>
 </div>
   </body>
