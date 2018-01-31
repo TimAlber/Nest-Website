@@ -54,7 +54,7 @@
         var acc = document.getElementsByClassName("accordion");
         var i;
 
-        for (i = 0; i < acc.length; i++) {
+        for (i = 0; i < acc2.length; i++) {
             acc[i].addEventListener("click", function() {
                 this.classList.toggle("active");
                 var panel = this.nextElementSibling;
@@ -70,9 +70,36 @@
 
   <span style="font-size:30px;cursor:pointer;position:fixed;" onclick="openNav()">&#9776;</span>
   <div id="main" class="main">
-  <h1>Forum</h1>
+  <h1>Social Media</h1>
   <br>
-  <p>Es gibt nun ein <a href="https://www.reddit.com/r/Stimmenhoeren/">Subreddit für Stimmenhörende</a>. Dieses fungiert auch als Forum für diese Seite.</p>
-</div>
+    <button class="accordion">Reddit</button>
+    <div class="panel2">
+      <p>Es gibt nun ein <a href="https://www.reddit.com/r/Stimmenhoeren/">Subreddit für Stimmenhörende</a>. Dieses fungiert auch als Forum für diese Seite.</p>
+    </div>
+    <button class="accordion">Twitter</button>
+    <div class="panel2">
+    <p>Das Netzwerk Stimmenhören hat eine <a href="https://twitter.com/mehr_hoeren">Twitter page</a>.</p>
+    </div>
+    <button class="accordion">Facebook</button>
+    <div class="panel2">
+      <p>Das Netzwerk Stimmenhören hat eine <a href="https://www.facebook.com/Netzwerk-Stimmenh%C3%B6ren-eV-354167607998945/">Facebook Seite</a>.</p>
+    </div>
+    <script>
+        var acc2 = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc2[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight){
+                    panel.style.maxHeight = null;
+                } else {
+                    panel.style.maxHeight = panel.scrollHeight + "px";
+                }
+            });
+        }
+    </script>
+    </div>
   </body>
 </html>
