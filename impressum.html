@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords" content="Tim Alber, Nest, Netzwerk Stimmenhören">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112314215-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-112314215-1');
+    </script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netzwerk Stimmenhören</title>
+    <link rel="stylesheet" type="text/css" href="layout.css">
+    <script src="sidenav.js"></script>
+    
+    <title>Netzwerk Stimmmenhören</title>
+  </head>
+  <body>
+  <div id="mySidenav" class="sidenav">
+
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <center>
+      <img src="logo.png" alt="Mountain View" width="140" height="140">
+    </center>
+  <a href="index.html">Startseite</a>
+    <a href="suchen.html">Suchen</a>
+
+    <button class="accordion">Angebote</button>
+    <div class="panel">
+      <a onclick="beratung()" href="javascript:void(0);">Beratung</a>
+      <a onclick="gruppen()" href="javascript:void(0);">Gruppen</a>
+      <a href="vortbildungen.html">Fortbildungen</a>
+      <a onclick="veran()" href="javascript:void(0);">Veranstaltungen</a>
+    </div>
+    <button class="accordion">Infomationen</button>
+    <div class="panel">
+      <a href="literatur.html">Literatur</a>
+      <a href="links.html">Online Literatur</a>
+      <a href="jurnal.html">Stimmenhörer Jurnale</a>
+      <a href="dasstimmenhoeren.html">Das Stimmenhören</a>
+      <a href="satzung.html">Satzung</a>
+      <a href="kontakt.html">Kontakt</a>
+      <a href="spenden.html">Spenden</a>
+    </div>
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight){
+                    panel.style.maxHeight = null;
+                } else {
+                    panel.style.maxHeight = panel.scrollHeight + "px";
+                }
+            });
+        }
+    </script>
+  <a href="forum.html">Social Media</a>
+</div>
+  <span style="font-size:30px;cursor:pointer;position:fixed;" onclick="openNav()">&#9776;</span>
+  <div id="main" class="main">
+  <h1>Impressum</h1>
+  <br>
+  <p>Angaben gemäß § 5 TMG:<br><br>
+
+    Netzwerk Stimmenhören e. V.<br>
+    Schudomastr. 3<br>
+    12055 Berlin<br><br>
+
+    Vertreten durch:<br>
+    Laura Vogt<br>
+    Nicole Hilgers<br>
+    Caroline von Taysen<br><br>
+
+    Kontakt:<br>
+    Telefon: 030-78718068<br>
+    Telefax: 030-68972841<br>
+    E-Mail: Stimmenhoeren@gmx.de<br><br>
+
+    Admin: Daniel.Joschko@niemand-kann-mich-sehen.de<br><br>
+
+    Registereintrag:<br>
+    Eintragung im Vereinsregister.<br>
+    Registergericht: Amtsgericht Charlottenburg<br>
+    Registernummer: VR18661B</p>
+</div>
+  </body>
+</html>

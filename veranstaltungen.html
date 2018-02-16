@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords" content="Tim Alber, Nest, Netzwerk Stimmenhören">
+    
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112314215-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-112314215-1');
+    </script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netzwerk Stimmenhören</title>
+    <link rel="stylesheet" type="text/css" href="layout.css">
+    <script src="sidenav.js"></script>
+  </head>
+  <body>
+
+<div id="mySidenav" class="sidenav">
+
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <center>
+    <img src="logo.png" alt="Mountain View" width="140" height="140">
+  </center>
+
+  <a href="index.html">Startseite</a>
+  <a href="suchen.html">Suchen</a>
+
+    <button class="accordion">Angebote</button>
+    <div class="panel">
+        <a onclick="beratung()" href="javascript:void(0);">Beratung</a>
+        <a onclick="gruppen()" href="javascript:void(0);">Gruppen</a>
+        <a href="vortbildungen.html">Fortbildungen</a>
+    </div>
+  <button class="accordion">Infomationen</button>
+  <div class="panel">
+    <a href="literatur.html">Literatur</a>
+    <a href="links.html">Online Literatur</a>
+    <a href="jurnal.html">Stimmenhörer Jurnale</a>
+    <a href="dasstimmenhoeren.html">Das Stimmenhören</a>
+    <a href="satzung.html">Satzung</a>
+    <a href="kontakt.html">Kontakt</a>
+    <a href="spenden.html">Spenden</a>
+    <a href="impressum.html">Impressum</a>
+  </div>
+    <script>
+        var acc2 = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc2[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight){
+                    panel.style.maxHeight = null;
+                } else {
+                    panel.style.maxHeight = panel.scrollHeight + "px";
+                }
+            });
+        }
+    </script>
+  <a href="forum.html">Social Media</a>
+</div>
+
+<!--<span onclick="openNav()">open</span>-->
+<span style="font-size:30px;cursor:pointer;position:fixed;" onclick="openNav()">&#9776;</span>
+<div id="main" class="main">
+
+  <h1>Veranstaltungen</h1>
+  <br>
+  <button class="accordion">Zukünftige Veranstaltungen</button>
+  <div class="panel2">
+    <h2>Hip-Hop Party</h2>
+    <p>3 Stimmenhörende Hip-Hoperinnen, Tanzmusik, Kunst und dieserartiges</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2426.4440154424915!2d13.557004215808375!3d52.54349287981866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a84beda0ccc6bd%3A0x9af166fc0519adab!2sKontakt-+u.+Begegnungsst%C3%A4tte+Das+Ufer!5e0!3m2!1sde!2sde!4v1515321224365" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
+  <button class="accordion">Vergangene Veranstaltungen</button>
+  <div class="panel2">
+    <h2>Stimmenhörer Kongress 2017</h2>
+    <p>Vorträge, Reden, Gruppen, Konversationen zum Thema Stimmenhören und PP Alternativen.</p>
+
+    <p>Vier der Vorträge vom Kongress sind auf Youtube veröffentlicht:<br>
+      <a href="https://www.youtube.com/playlist?list=PLHBXVubUrckMfhZKvZoFB0-3_3_yAiTEV">Youtube Playlist</a>
+    </p>
+    <img src="files/plakat2017.jpeg" alt="SK2017" width="300" height="450">
+    <h2>Stimmenhörer Kongress 2015</h2>
+    <p>Vorträge, Reden, Gruppen, Konversationen zum Thema "Neue Wege Gehen".</p>
+    <img src="files/plakat2015.jpg" alt="SK2015" width="300" height="450">
+  </div>
+  <script>
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+              this.classList.toggle("active");
+              var panel = this.nextElementSibling;
+              if (panel.style.maxHeight){
+                  panel.style.maxHeight = null;
+              } else {
+                  panel.style.maxHeight = panel.scrollHeight + "px";
+              }
+          });
+      }
+  </script>
+ <br><br><br><br><br><br><br><br>
+</div>
+  </body>
+</html>
