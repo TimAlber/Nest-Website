@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.9, shrink-to-fit=yes">
+    <meta name="keywords" content="Tim Alber, Nest, Netzwerk Stimmenhören">
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114306789-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-114306789-1');
+    </script>
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script async src="//genius.codes"></script>
+    <title>Netzwerk Stimmenhören</title>
+    <link rel="stylesheet" type="text/css" href="layout.css">
+    <script src="sidenav.js"></script>
+
+    
+    <title>Netzwerk Stimmmenhören</title>
+  </head>
+  <body>
+
+<div id="mySidenav" class="sidenav">
+
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <center>
+    <img src="logo.png" alt="Mountain View" width="140" height="140">
+  </center>
+
+  <a href="suchen.html">Suchen</a>
+
+  <button class="accordion">Über uns</button>
+  <div class="panel">
+    <a href="stelltsichvor.html">Das Nest stellt sich vor</a>
+    <a href="dasstimmenhoeren.html">Das Stimmenhören</a>
+    <a onclick="kon()" href="javascript:void(0);">Kontakt</a>
+  </div>
+
+    <button class="accordion">Angebote</button>
+    <div class="panel">
+        <a onclick="beratung()" href="javascript:void(0);">Beratung</a>
+        <a onclick="gruppen()" href="javascript:void(0);">Gruppen</a>
+        <a href="vortbildungen.html">Fortbildungen</a>
+        <a onclick="veran()" href="javascript:void(0);">Veranstaltungen</a>
+    </div>
+  <button class="accordion">Infomationen</button>
+  <div class="panel">
+    <a href="calender.html">Kalender</a>
+    <a href="jurnal.html">Stimmenhörer Journale</a>
+    <a href="literatur.html">Literatur</a>
+    <a href="links.html">Online Literatur</a>
+    <a href="spenden.html">Spenden</a>
+    <a href="satzung.html">Satzung</a>
+    <a href="impressum.html">Impressum</a>
+  </div>
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight){
+                    panel.style.maxHeight = null;
+                } else {
+                    panel.style.maxHeight = panel.scrollHeight + "px";
+                }
+            });
+        }
+    </script>
+  <a href="forum.html">Social Media</a>
+<!--  <a onclick="beratung()" href="javascript:void(0);">Beratung</a>
+  <a onclick="gruppen()" href="javascript:void(0);">Gruppen</a>-->
+</div>
+
+<!--<span onclick="openNav()">open</span>-->
+<span style="font-size:30px;cursor:pointer;position:fixed;" onclick="openNav()">&#9776;</span>
+<div id="main" class="main">
+
+  <h1>Das Nest stellt sich vor</h1>
+  <br>
+  <p>Über das Stimmenhören15 Prozent aller Menschen haben außergewöhnliche Wahrnehmungen, drei bis fünf Prozent aller Menschen hören Stimmen, das heißt, sie hören ganz real gesprochene Worte, die nur sie selbst hören können. Die Stimmen können unterschiedliche Lautstärke und verschiedene Charaktere haben. Sie können als störend empfunden werden und unter Umständen viel Leid hervorrufen. Sie können aber auch schützende Funktion haben und unter günstigen Bedingungen eine Lebensbereicherung sein. Zu den Stimmen hörenden Menschen gehörten zum Beispiel Jesus, Hildegard von Bingen, Jeanne d`Arc, Gotthold Ephraim Lessing, C. G. Jung und Andy Warhol.Wer oder was wird da laut? Welche Ursachen dafür gibt es? Dazu existieren unterschiedliche Theorien – eine allgemein gültige Erklärung gibt es nicht.
+
+    Oft bedeutet das Auftauchen der Stimmen eine erhebliche Verunsicherung. Sachliche Informationen und der Austausch mit unvoreingenommenen Gesprächspartner/innen, insbesondere mit anderen Stimmen hörenden Menschen, können dieser entgegenwirken. Meist ist die Unfähigkeit, mit den Stimmen umzugehen, das Problem und weniger das Hören von Stimmen an sich. Viele Stimmen hörende Menschen trauen sich nicht über ihre Erfahrungen zu reden. Allzu oft wird in unserer westlichen Kultur das Vorhandensein außergewöhnlicher Wahrnehmungen, wie zum Beispiel das Stimmenhören, lediglich als Zeichen einer Krankheit gesehen. Diese undifferenzierte Herangehensweise hilft den Betroffenen wenig, ihre Erfahrungen zu verstehen und zu bewältigen.</p>
+  <br><br><br><br><br><br><br><br>
+  <a href="https://github.com/TimAlber/Nest-Website/raw/gh-pages/files/NeSt_stellt_sich_vor.pdf" download>Ausführlichere Version dieses Textes</a>
+</div>
+  </body>
+</html>

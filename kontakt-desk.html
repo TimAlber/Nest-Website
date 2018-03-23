@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords" content="Tim Alber, Nest, Netzwerk Stimmenhören">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112314215-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-112314215-1');
+    </script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script async src="//genius.codes"></script>
+    <title>Netzwerk Stimmenhören</title>
+    <link rel="stylesheet" type="text/css" href="layout.css">
+    <script src="sidenav.js"></script>
+
+    <title>Netzwerk Stimmenhören</title>
+  </head>
+  <body>
+  <div id="mySidenav" class="sidenav">
+
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <center>
+      <img src="logo.png" alt="Mountain View" width="140" height="140">
+    </center>
+  <a href="index.html">Startseite</a>
+  <a href="suchen.html">Suchen</a>
+
+    <button class="accordion">Über uns</button>
+    <div class="panel">
+      <a href="stelltsichvor.html">Das Nest stellt sich vor</a>
+      <a href="dasstimmenhoeren.html">Das Stimmenhören</a>
+      <a onclick="kon()" href="javascript:void(0);">Kontakt</a>
+    </div>
+    <button class="accordion">Angebote</button>
+    <div class="panel">
+      <a onclick="beratung()" href="javascript:void(0);">Beratung</a>
+      <a onclick="gruppen()" href="javascript:void(0);">Gruppen</a>
+      <a href="vortbildungen.html">Fortbildungen</a>
+      <a onclick="veran()" href="javascript:void(0);">Veranstaltungen</a>
+    </div>
+    <button class="accordion">Infomationen</button>
+    <div class="panel">
+      <a href="calender.html">Kalender</a>
+      <a href="jurnal.html">Stimmenhörer Journale</a>
+      <a href="literatur.html">Literatur</a>
+      <a href="links.html">Online Literatur</a>
+      <a href="spenden.html">Spenden</a>
+      <a href="satzung.html">Satzung</a>
+      <a href="impressum.html">Impressum</a>
+    </div>
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight){
+                    panel.style.maxHeight = null;
+                } else {
+                    panel.style.maxHeight = panel.scrollHeight + "px";
+                }
+            });
+        }
+    </script>
+  <a href="forum.html">Social Media</a>
+</div>
+
+  <span style="font-size:30px;cursor:pointer;position:fixed;" onclick="openNav()">&#9776;</span>
+  <div id="main" class="main">
+  <h1>Kontakt</h1>
+  <br>
+  <p>Wir bieten Beratung und Information für Stimmen hörende Menschen sowie deren Freunde und Helfer an.</p>
+  <p>Email: <a href="mailto:stimmenhoeren@gmx.de">stimmenhoeren@gmx.de</a></p>
+  <p>Telefon: <br>
+    Büro in Neukölln: <b>+49 30 78 71 80 68 </b><br> Regina Weiß in Brandenburg: <b>+49 3376 59 49 872</b> <br> Karin Römer in Neustadt an der Weinstrasse <b>+49 6321 18 74 404</br></b>
+    Bitte auf den AB sprechen, die Beraterin ruft zurück.</p>
+  <p>FAX: +49 30 68 97 28 41</p><br>
+  <p>Bitte vereinbaren sie bei einem persönlichem Beratungswunsch in unserem Büro, einen Termin.</p>
+  <p>Beratung & Büro in Berlin-Neukölln<br>persönlich oder telefonisch <br> Dienstag von 13:00 – 15:00 Uhr <br> Donnertags von  14:00 – 17:00  Uhr</p>
+  <p>Netzwerk Stimmenhören e.V. <br> Schudomastraße 3 <br>12055 Berlin-Neukölln</p>
+</div>
+  </body>
+</html>
