@@ -58,11 +58,11 @@
     <a href="impressum.html">Impressum</a>
   </div>
     <script>
-        var acc2 = document.getElementsByClassName("accordion");
+        var acc = document.getElementsByClassName("accordion");
         var i;
 
         for (i = 0; i < acc.length; i++) {
-            acc2[i].addEventListener("click", function() {
+            acc[i].addEventListener("click", function() {
                 this.classList.toggle("active");
                 var panel = this.nextElementSibling;
                 if (panel.style.maxHeight){
@@ -83,7 +83,7 @@
   <h1>Veranstaltungen</h1>
   <br>
   
-  <button class="accordion">Zukünftige Veranstaltungen</button>
+  <button class="accordion2">Zukünftige Veranstaltungen</button>
   <div class="panel2">
     <table style="width:100%">
       <tr>
@@ -96,7 +96,7 @@
       </tr>
     </table>
   </div>
-   <button class="accordion">Vergangene Veranstaltungen</button>
+   <button class="accordion2">Vergangene Veranstaltungen</button>
   <div class="panel2">
     <table style="width:100%">
       <tr>
@@ -127,20 +127,22 @@
     </table>
   </div>
       <script>
-        var acc = document.getElementsByClassName("accordion");
-        var i;
+          var acc = document.getElementsByClassName("accordion2");
+          var i;
 
-        for (i = 0; i < acc.length; i++) {
-            acc[i].addEventListener("click", function() {
-                this.classList.toggle("active");
-                var panel = this.nextElementSibling;
-                if (panel.style.maxHeight){
-                    panel.style.maxHeight = null;
-                } else {
-                    panel.style.maxHeight = panel.scrollHeight + "px";
-                }
-            });
-        }
+          for (i = 0; i < acc.length; i++) {
+              var panel = acc[i].nextElementSibling;
+              panel.style.maxHeight = panel.scrollHeight + "px";
+              acc[i].onclick = function() {
+                  this.classList.toggle("active");
+                  var panel = this.nextElementSibling;
+                  if (panel.style.maxHeight) {
+                      panel.style.maxHeight = null;
+                  } else {
+                      panel.style.maxHeight = panel.scrollHeight + "px";
+                  }
+              }
+          }
     </script>
  <br><br><br><br><br><br><br><br>
 </div>
