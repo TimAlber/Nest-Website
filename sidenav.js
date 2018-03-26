@@ -71,6 +71,16 @@ function vort() {
 
 }
 
+function kon() {
+    if( isMobile.any() ){
+        window.open('kontakt.html',"_self");
+    }
+    else{
+        window.open('kontakt-desk.html',"_self");
+    }
+
+}
+
 window.onload = function() {
     if( isMobile.any() ){
         closeNav();

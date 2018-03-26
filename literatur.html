@@ -36,7 +36,12 @@
 
   <a href="index.html">Startseite</a>
   <a href="suchen.html">Suchen</a>
-
+  <button class="accordion">Über uns</button>
+  <div class="panel">
+    <a href="stelltsichvor.html">Das Nest stellt sich vor</a>
+    <a href="dasstimmenhoeren.html">Das Stimmenhören</a>
+    <a onclick="kon()" href="javascript:void(0);">Kontakt</a>
+  </div>
   <button class="accordion">Angebote</button>
   <div class="panel">
     <a onclick="beratung()" href="javascript:void(0);">Beratung</a>
@@ -46,8 +51,6 @@
   </div>
   <button class="accordion">Infomationen</button>
   <div class="panel">
-    <a href="dasstimmenhoeren.html">Das Stimmenhören</a>
-    <a href="kontakt.html">Kontakt</a>
     <a href="calender.html">Kalender</a>
     <a href="jurnal.html">Stimmenhörer Journale</a>
     <a href="links.html">Online Literatur</a>
@@ -85,6 +88,16 @@
   <ul style="list-style-type:square">
     <h3>Bücher:</h3>
     <li><a href="https://github.com/TimAlber/Nest-Website/raw/gh-pages/files/bock_psysememinare.pdf" download>„Es ist normal, verschieden zu sein!“. Ein kleines Heft über Verständnis und Behandlung von Psychosen aus Sicht von Erfahrenen und Experten</a></li><br>
+    <li><a href="https://www.amazon.de/Stimmenh%C3%B6ren-akzeptieren-Marius-Romme/dp/3936033099/ref=sr_1_1?ie=UTF8&qid=1521965898&sr=8-1&keywords=3936033099">„Stimmenhören akzeptieren“, M. Rommé / S. Escher, NEUNPLUS1 Verlag, Berlin 2001, ISBN 3 - 936033 - 09 9</a></li><br>
+    <li><a href="https://www.psychiatrie-verlag.de/buecher/detail/book-detail/stimmenhoeren-verstehen.html">„Stimmenhören verstehen. Ein Leitfaden zur Arbeit mit Stimmenhörern“, M. Rommé / S. Escher Psychiatrie-Verlag, Bonn 2008, ISBN 978 – 3 – 88414 – 442 – 8</a></li><br>
+    <li><a href="https://www.lehmanns.de/shop/medizin-pharmazie/2612458-9783884142479-stimmenhoeren-verstehen-und-bewaeltigen">„Stimmenhören verstehen und bewältigen“, (Psychosoziale Arbeitshilfen Nr. 14), R. Coleman / M. Smith, Psychiatrie-Verlag, ISBN 3 - 88414 - 247 - X</a></li><br>
+    <li><a href="https://www.antipsychiatrieverlag.de/verlag/titel/klafki.htm">„Meine Stimmen – Quälgeister und Schutzengel“. Texte einer engagierten Stimmenhörerin, Hannelore Klafki Antipsychiatrie Verlag, Berlin 2006, ISBN 3 - 925931 - 42 - 2</a></li><br>
+    <li><a href="https://www.amazon.com/Living-Voices-50-Stories-Recovery/dp/1906254222">“Living with Voices: 50 Stories of Recovery”, M. Romme, S. Escher, J. Dillon, M. Morris, D. Corstens (Editors), PCCS Books, England, 2009, ISBN13 9781906254223</a></li><br>
+    <li><a href="https://www.antipsychiatrieverlag.de/versand/titel1/knuf_gartelmann.htm">„Bevor die Stimmen wiederkommen. Vorsorge und Selbsthilfe bei psychot. Krisen“, A.Knuf, A.Gartelmann Balance-Verlag, Bonn 2009, ISBN 978-3- 86739-043- 9</a></li><br>
+    <li><a href="https://www.antipsychiatrieverlag.de/versand/titel/gehrke.htm">„Ausbruch aus dem Angstkäfig“, A. Gehrke, Paranus-Verlag, ISBN 3 - 926299 - 53 - 7</a></li><br>
+    <li><a href="https://www.lehmanns.de/shop/geisteswissenschaften/7916119-9783867390132-stimmenreich">„Stimmenreich. Mitteilungen über den Wahnsinn.“, Th. Bock/D. Buck/I. Esterer, Balance Buch, Bonn, 2007, ISBN 978 – 3 – 86739 – 013 - 2</a></li><br>
+    <li><a href="https://www.zvab.com/servlet/BookDetailsPL?bi=22806220541&searchurl=hl%3Don%26isbn%3D3933056012%26sortby%3D20">„Die Bettelkönigin“, I. Stratenwerth / Th. Bock, Kore Edition (Göre bei Kore), ISBN 3 - 933056 - 01 - 2</a></li><br>
+    <li><a href="mailto:?subject=Ich würde gerne ein Buch bestellen.&body=Hallo, Ich würde gerne „Die innere Stimme. Ein praktischer Ratgeber für Stimmenhörer“ von Paul Baker bestellen.">„Die innere Stimme. Ein praktischer Ratgeber für Stimmenhörer“, Paul Baker, Broschüre herausgegeben vom Netzwerk Stimmenhören e.V.</a></li><br>
     <h3>Publikationen:</h3>
     <li><a href="https://github.com/TimAlber/Nest-Website/raw/gh-pages/files/Herausfordernde%20Stimmen%20Deutsch.doc" download>Mit den Stimmen Sprechen, Dr. Dirk Corstens, Dr. Rufus May und Eleanor Longden,</a></li><br>
     <li><a href="https://github.com/TimAlber/Nest-Website/raw/gh-pages/files/Stimmenhoeren_Romme_Maj_Escher.rtf" download>Stimmenhören, Text von Romme, Maj und Escher – zusammengefasst übersetzt von Dr. Monika Hoffmann</a></li><br>
@@ -96,7 +109,7 @@
     <li><a href="https://github.com/TimAlber/Nest-Website/raw/gh-pages/files/Die_Innere_Stimme_Leseprobe.rtf" download>Die Innere Stimme, Leseprobe.</a></li><br>
     <h3>Zeitungsartikel:</h3>
     <li><a href="https://github.com/TimAlber/Nest-Website/raw/gh-pages/files/Tag_und_Nacht_h%C3%A4mmern_sie_auf_mich_ein.pdf" download>"Tag und Nacht hämmerten sie auf mich ein", Berliner Zeitung vom 26.07.2014, Rolf Fahrenkrog-Petersen</a></li><br>
-    <li><a href="https://docs.google.com/document/d/1LtiFrKC2bg2ps9yJoKzzAo7fdWoLsh_U_EWAZ3zf7VA/edit" download>Hinter dem Mantel der Professionalität, Psychiatrische Pflege, Artikel von Caroline Taysen (2015)</a></li><br>
+    <li><a href="https://github.com/TimAlber/Nest-Website/raw/gh-pages/files/Artikel%20Psychiatrische%20Pflege.doc.pdf" download>Hinter dem Mantel der Professionalität, Psychiatrische Pflege, Artikel von Caroline Taysen (2015)</a></li><br>
     <h3>Berichte & Doku´s von Stimmenhörerkongressen:</h3>
     <li><a href="https://github.com/TimAlber/Nest-Website/raw/gh-pages/files/kongrdoku2001.pdf" download>Kongressdokumentation 2001 Druckversion</a></li><br>
     <li><a href="https://github.com/TimAlber/Nest-Website/raw/gh-pages/files/Stimmenhoeren_bei_Kindern.rtf" download>Stimmenhören bei Kindern, Vortrag anlässlich des 3. Stimmenhörerkongresses im Jahr 2001</a></li><br>
