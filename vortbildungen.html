@@ -29,53 +29,54 @@
   <center>
     <img src="logo.png" alt="Mountain View" width="140" height="140">
   </center>
-
   <a href="index.html">Startseite</a>
   <a href="suchen.html">Suchen</a>
-
-    <button class="accordion">Angebote</button>
-    <div class="panel">
-        <a onclick="beratung()" href="javascript:void(0);">Beratung</a>
-        <a onclick="gruppen()" href="javascript:void(0);">Gruppen</a>
-        <a onclick="veran()" href="javascript:void(0);">Veranstaltungen</a>
-    </div>
+  <button class="accordion">Über uns</button>
+  <div class="panel">
+    <a href="stelltsichvor.html">Das Nest stellt sich vor</a>
+    <a href="dasstimmenhoeren.html">Das Stimmenhören</a>
+    <a onclick="kon()" href="javascript:void(0);">Kontakt</a>
+  </div>
+  <button class="accordion">Angebote</button>
+  <div class="panel">
+    <a onclick="beratung()" href="javascript:void(0);">Beratung</a>
+    <a onclick="gruppen()" href="javascript:void(0);">Gruppen</a>
+    <a onclick="veran()" href="javascript:void(0);">Veranstaltungen</a>
+  </div>
   <button class="accordion">Infomationen</button>
   <div class="panel">
+    <a href="calender.html">Kalender</a>
+    <a href="jurnal.html">Stimmenhörer Journale</a>
     <a href="literatur.html">Literatur</a>
     <a href="links.html">Online Literatur</a>
-    <a href="jurnal.html">Stimmenhörer Jurnale</a>
-    <a href="dasstimmenhoeren.html">Das Stimmenhören</a>
-    <a href="satzung.html">Satzung</a>
-    <a href="kontakt.html">Kontakt</a>
     <a href="spenden.html">Spenden</a>
+    <a href="satzung.html">Satzung</a>
     <a href="impressum.html">Impressum</a>
   </div>
-    <script>
-        var acc2 = document.getElementsByClassName("accordion");
-        var i;
+  <script>
+      var acc2 = document.getElementsByClassName("accordion");
+      var i;
 
-        for (i = 0; i < acc.length; i++) {
-            acc2[i].addEventListener("click", function() {
-                this.classList.toggle("active");
-                var panel = this.nextElementSibling;
-                if (panel.style.maxHeight){
-                    panel.style.maxHeight = null;
-                } else {
-                    panel.style.maxHeight = panel.scrollHeight + "px";
-                }
-            });
-        }
-    </script>
+      for (i = 0; i < acc.length; i++) {
+          acc2[i].addEventListener("click", function() {
+              this.classList.toggle("active");
+              var panel = this.nextElementSibling;
+              if (panel.style.maxHeight){
+                  panel.style.maxHeight = null;
+              } else {
+                  panel.style.maxHeight = panel.scrollHeight + "px";
+              }
+          });
+      }
+  </script>
   <a href="forum.html">Social Media</a>
 </div>
 
 <!--<span onclick="openNav()">open</span>-->
-<span style="font-size:30px;cursor:pointer;position:fixed;" onclick="openNav()">&#9776;</span>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
 <div id="main" class="main">
 
-  <h1>Fortbildungen</h1>
-  <br>
-
+  <h1>Vortbildungen</h1>
   <button class="accordion">Fortbildungsangebote Stimmenhören</button>
   <div class="panel2">
 
@@ -128,17 +129,51 @@
     </p>
 
   </div>
+  <button class="accordion">Fortbildungen 2018</button>
+  <div class="panel2">
+    <p>12.-13.03.: "Stimmenhören verstehen" (Tage 1 und 2) in Stuttgart bei der BAKD (Bundesakademie für Kirche und Diakonie), siehe:<br>
+      <a href="http://www.ba-kd.de/programm/2018/fortbildung-stimmenhoeren-verstehen/?type=504446">http://www.ba-kd.de/programm/2018/fortbildung-stimmenhoeren-verstehen/?type=504446</a>
+    </p>
+    <p>20.-21.04.: "Stimmenhören verstehen" (Tage 1 und 2) in Würzburg bei der DGSP (Deutsche Gesellschaft für Soziale Psychiatrie), siehe:<br>
+      <a href="https://www.dgsp-ev.de/fortbildungen/kurzfortbildungen/seminarliste-2018/22-stimmen-verstehen-praktische-anleitung-zum-umgang-mit-dem-stimmenhoeren.html">https://www.dgsp-ev.de/fortbildungen/kurzfortbildungen/seminarliste-2018/22-stimmen-verstehen-praktische-anleitung-zum-umgang-mit-dem-stimmenhoeren.html</a>
+    </p>
+    <p>16.-17.05.: "Stimmenhören verstehen" (Tage 1 und 2) in Berlin bei der Wannsee-Akademie, siehe:<br>
+      <a href="http://www.wannseeschule.de/kurs_fort.php?85=psychiatrie=0">http://www.wannseeschule.de/kurs_fort.php?85=psychiatrie=0</a>
+    </p>
+    <p>28.-29.06.: "Stimmenhören verstehen" (Tage 1 und 2) in Berlin bei VIA, siehe:<br>
+      <a href="http://via-qualifizierung.de/veranstaltungen/jahreskalender/">http://via-qualifizierung.de/veranstaltungen/jahreskalender/</a>
+    </p>
+    <p>13.09.:"Stimmenhören  verstehen" (Tag 1) in Augsburg bei AWOSANA Augsburg, siehe: <br>
+      <a href="http://www.awo-augsburg.de/images/Fobi2018.pdf">http://www.awo-augsburg.de/images/Fobi2018.pdf</a>
+    </p>
+    <p>27.-28.09.: "Stimmenhören verstehen" (Tage 1 und 2) in Warstein bei den LWL Gesundheitseinrichtungen, siehe:<br>
+      <a href="https://termine.lwl-gesundheitseinrichtungen-kreis-soest-blog.de/events/event/2018-stimmenhoeren-verstehen/">https://termine.lwl-gesundheitseinrichtungen-kreis-soest-blog.de/events/event/2018-stimmenhoeren-verstehen/</a>
+    </p>
+    <p>12.-13.10.: "Den Stimmen einen Sinn geben. Erfahrungsfokussierte Begleitung" (Tage 3 und 4) in Erfurt bei der DGSP (Deutsche Gesellschaft für Soziale Psychiatrie), siehe:<br>
+      <a href="https://www.dgsp-ev.de/fortbildungen/kurzfortbildungen/seminarliste-2018/54-den-stimmen-einen-sinn-geben.html">https://www.dgsp-ev.de/fortbildungen/kurzfortbildungen/seminarliste-2018/54-den-stimmen-einen-sinn-geben.html</a>
+    </p>
+    <p>29.-30.11.: "Den Stimmen einen Sinn geben. Erfahrungsfokussierte Begleitung" (Tage 3 und 4) in Stuttgart bei der BAKD (Bundesakademie für Kirche und Diakonie), siehe:<br>
+      <a href="http://www.ba-kd.de/programm/2018/fortbildung-stimmen-einen-sinn-geben/">http://www.ba-kd.de/programm/2018/fortbildung-stimmen-einen-sinn-geben/</a>
+    </p>
+    <p>06.-07.12.: "Den Stimmen einen Sinn geben. Erfahrungsfokussierte Begleitung" (Tage 3 und 4) in Berlin bei VIA, siehe:<br>
+      <a href="http://via-qualifizierung.de/veranstaltungen/jahreskalender/">http://via-qualifizierung.de/veranstaltungen/jahreskalender/</a>
+    </p>
+  </div>
   <button class="accordion">Fortbildungen 2017</button>
   <div class="panel2">
-    <p><a href="http://programm.ba-kd.de/AKD/prod/bundesakademie/Course/Details/Index/RI-cid(26585)ctid(824)sel(Tree)?catalogUrl=%2fAKD%2fprod%2fbundesakademie%2fCourse%2fsearch%3fsearchCourseKeyword%3dstimmenh%25c3%25b6ren">„Stimmenhören verstehen“ am 28. & 29. Mai 2017 in Filderstadt bei Stuttgart, bei der Bundesakademie für Kirche und Diakonie (BAKD e.V.).</a></p>
-    <p><a href="https://www.dgsp-ev.de/fortbildungen/kurzfortbildungen/seminarliste-2017/67-den-stimmen-einen-sinn-geben.html">„Den Stimmen einen Sinn geben“ am 16. & 17. November 2017 in Fulda, bei der Deutschen Gesellschaft für Soziale Psychiatrie (DGSP e.V.).</a></p>
+    <p>„Stimmenhören verstehen“ am 28. & 29. Mai 2017 in Filderstadt bei Stuttgart, bei der Bundesakademie für Kirche und Diakonie (BAKD e.V.), siehe:<br>
+      <a href="http://programm.ba-kd.de/AKD/prod/bundesakademie/Course/Details/Index/RI-cid(26585)ctid(824)sel(Tree)?catalogUrl=%2fAKD%2fprod%2fbundesakademie%2fCourse%2fsearch%3fsearchCourseKeyword%3dstimmenh%25c3%25b6ren">http://programm.ba-kd.de/AKD/prod/bundesakademie/Course/Details/Index/RI-cid(26585)ctid(824)sel(Tree)?catalogUrl=%2fAKD%2fprod%2fbundesakademie%2fCourse%2fsearch%3fsearchCourseKeyword%3dstimmenh%25c3%25b6ren</a>
+    </p>
+    <p>„Den Stimmen einen Sinn geben“ am 16. & 17. November 2017 in Fulda, bei der Deutschen Gesellschaft für Soziale Psychiatrie (DGSP e.V.)., siehe:<br>
+      <a href="https://www.dgsp-ev.de/fortbildungen/kurzfortbildungen/seminarliste-2017/67-den-stimmen-einen-sinn-geben.html">https://www.dgsp-ev.de/fortbildungen/kurzfortbildungen/seminarliste-2017/67-den-stimmen-einen-sinn-geben.html</a>
+    </p>
   </div>
   <button class="accordion">Fortbildungen 2016</button>
   <div class="panel2">
 
     <p>12.1.2016: „Stimenhören verstehen“ Fortbildung mit Antje Wilfer und Caroline Taysen in der Wannsee-Akademie in Berlin:<br>
       <a href="http://www.wannseeschule.de/kurs_fort.php?85=psychiatrie=0">http://www.wannseeschule.de/kurs_fort.php?85=psychiatrie=0</a>
-      </p>
+    </p>
 
     <p>29.02./01.03.2016: „Stimmenhören“ Fortbildung mit Antje Wilfer und Caroline Taysen bei VIA in Berlin:<br>
       <a href="http://www.via-qualifizierung.de/Stimmenhoeren-DIALOGISCHES-SEMINAR-4166.s-201-0229-4166.0.html">http://www.via-qualifizierung.de/Stimmenhoeren-DIALOGISCHES-SEMINAR-4166.s-201-0229-4166.0.html</a>
@@ -163,7 +198,7 @@
 
     <p>18.11.2016: „Stimmenhören Überblick“ Vortrag mit Antje Wilfer und Caroline Taysen bei VIA in Berlin:<br>
       <a href="http://www.via-qualifizierung.de/Stimmenhoeren-VORTRAG-4215.s-201-1118-4215.0.html">http://www.via-qualifizierung.de/Stimmenhoeren-VORTRAG-4215.s-201-1118-4215.0.html</a>
-      </p>
+    </p>
 
     <p>28./29.11.2016: „Erfahrungsfokussierte Begleitung“ weiterführende Fortbildung mit Antje Wilfer und Caroline Taysen bei VIA in Berlin:<br>
       <a href="http://www.via-qualifizierung.de/Erfahrungsfokussierte-Begleitung-ZERTIFIKATSKURS-4193.s-201-1128-4193.0.html">http://www.via-qualifizierung.de/Erfahrungsfokussierte-Begleitung-ZERTIFIKATSKURS-4193.s-201-1128-4193.0.html</a>
@@ -186,7 +221,7 @@
           });
       }
   </script>
- <br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br>
 </div>
   </body>
 </html>

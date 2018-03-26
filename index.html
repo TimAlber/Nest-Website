@@ -2,57 +2,59 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=0.9, shrink-to-fit=yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="keywords" content="Tim Alber, Nest, Netzwerk Stimmenhören">
-    
-    
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112314215-1"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-      gtag('config', 'UA-112314215-1');
+        gtag('config', 'UA-112314215-1');
     </script>
-    
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script async src="//genius.codes"></script>
     <title>Netzwerk Stimmenhören</title>
     <link rel="stylesheet" type="text/css" href="layout.css">
     <script src="sidenav.js"></script>
-
     
-    <title>Netzwerk Stimmmenhören</title>
+    <title>Netzwerk Stimmenhören</title>
   </head>
   <body>
+  <div id="mySidenav" class="sidenav">
 
-<div id="mySidenav" class="sidenav">
-
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <center>
-    <img src="logo.png" alt="Mountain View" width="140" height="140">
-  </center>
-
-  <a href="suchen.html">Suchen</a>
-
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <center>
+      <img src="logo.png" alt="Mountain View" width="140" height="140">
+    </center>
+    <a href="index.html">Startseite</a>
+    <a href="suchen.html">Suchen</a>
+    <button class="accordion">Über uns</button>
+    <div class="panel">
+      <a href="stelltsichvor.html">Das Nest stellt sich vor</a>
+      <a href="dasstimmenhoeren.html">Das Stimmenhören</a>
+      <a onclick="kon()" href="javascript:void(0);">Kontakt</a>
+    </div>
     <button class="accordion">Angebote</button>
     <div class="panel">
-        <a onclick="beratung()" href="javascript:void(0);">Beratung</a>
-        <a onclick="gruppen()" href="javascript:void(0);">Gruppen</a>
-        <a href="vortbildungen.html">Fortbildungen</a>
-        <a onclick="veran()" href="javascript:void(0);">Veranstaltungen</a>
+      <a onclick="beratung()" href="javascript:void(0);">Beratung</a>
+      <a onclick="gruppen()" href="javascript:void(0);">Gruppen</a>
+      <a href="vortbildungen.html">Fortbildungen</a>
+      <a onclick="veran()" href="javascript:void(0);">Veranstaltungen</a>
     </div>
-  <button class="accordion">Infomationen</button>
-  <div class="panel">
-    <a href="literatur.html">Literatur</a>
-    <a href="links.html">Online Literatur</a>
-    <a href="jurnal.html">Stimmenhörer Jurnale</a>
-    <a href="dasstimmenhoeren.html">Das Stimmenhören</a>
-    <a href="satzung.html">Satzung</a>
-    <a href="kontakt.html">Kontakt</a>
-    <a href="spenden.html">Spenden</a>
-    <a href="impressum.html">Impressum</a>
-  </div>
+    <button class="accordion">Infomationen</button>
+    <div class="panel">
+      <a href="calender.html">Kalender</a>
+      <a href="jurnal.html">Stimmenhörer Journale</a>
+      <a href="literatur.html">Literatur</a>
+      <a href="links.html">Online Literatur</a>
+      <a href="spenden.html">Spenden</a>
+      <a href="satzung.html">Satzung</a>
+      <a href="impressum.html">Impressum</a>
+    </div>
     <script>
         var acc = document.getElementsByClassName("accordion");
         var i;
@@ -70,19 +72,13 @@
         }
     </script>
   <a href="forum.html">Social Media</a>
-<!--  <a onclick="beratung()" href="javascript:void(0);">Beratung</a>
-  <a onclick="gruppen()" href="javascript:void(0);">Gruppen</a>-->
 </div>
-
-<!--<span onclick="openNav()">open</span>-->
-<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
-<div id="main" class="main">
-
-  <h1>Netzwerk Stimmenhören</h1>
+  <span style="font-size:30px;cursor:pointer;position:fixed;" onclick="openNav()">&#9776;</span>
+  <div id="main" class="main">
+  <h1>Startseite</h1>
   <br>
-  <p>Wer Stimmen hört, hört ganz real gesprochene Worte, die nur er selber wahrnehmen kann. Etwa 15 % aller Menschen hören irgendwann einmal in ihrem Leben Stimmen.</p>
+    <p>Wer Stimmen hört, hört ganz real gesprochene Worte, die nur er/sie selber wahrnehmen kann. Etwa 6-10 % aller Menschen hören irgendwann einmal in ihrem Leben Stimmen.</p>
     <iframe src="https://www.google.com/maps/d/embed?mid=1ADB_BK8VOAmTO2AK8KkmO0NVLqI" width="100%" height="480"></iframe>
-  <br><br><br><br><br><br><br><br>
-</div>
+  </div>
   </body>
 </html>
